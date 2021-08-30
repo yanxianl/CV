@@ -68,5 +68,5 @@ data.frame(
 # export plot
 ggsave(
   here::here("output/coding_skills.png"), bg = "transparent", 
-  width = 3.5, height = 3
+  width = 3.5, height = 2.5
   )

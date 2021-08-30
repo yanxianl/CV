@@ -4,7 +4,7 @@ author: Yanxian Li
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
-    css: ['styles.css']
+    css: ['00_styles.css']
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 ---
@@ -195,6 +195,12 @@ Skills {#skills}
 **Bioinformatics**
 <br>
 16S amplicon data analysis
+
+**Statistics**
+<br>
+Mixed effects models
+<br>
+Multivariate statistics
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
