@@ -147,7 +147,7 @@ fill_nas <- function(column){
 }
 
 # Load csv with position info
-position_data <- read_csv(here::here("data/positions.csv")) %>% 
+position_data <- read_tsv(here::here("data/positions.tsv")) %>% 
   mutate_all(fill_nas) %>% 
   arrange(order, desc(end)) %>% 
   mutate(id = 1:n()) %>% 
@@ -213,7 +213,7 @@ Main
 Yanxian Li {#title}
 --------------------------------------------------------------------------------
 
-I'm a Ph.D. research fellow at [Norwegian University of Life Sciences](https://www.nmbu.no/en). My research interests include aquaculture, fish nutrition, gut health and microbiome.
+I'm a postdoc research fellow at [Norwegian University of Life Sciences](https://www.nmbu.no/en). My research interests include aquaculture, fish nutrition, gut health and microbiome. Currently, I’m working on *in-vitro* models for testing the nutritional and health effects of novel ingredients and feeds. 
 
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
