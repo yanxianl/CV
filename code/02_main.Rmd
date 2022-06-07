@@ -181,7 +181,7 @@ if(PDF_EXPORT){
 
 Contact {#contact}
 --------------------------------------------------------------------------------
-- <i class="fa fa-envelope"></i> yanxianl@nmbu.no
+- <i class="fa fa-envelope"></i> yanxian_li@163.com
 - <i class="fa fa-twitter"></i> [Twitter: `@`li_yanxian](https://twitter.com/li_yanxian)
 - <i class="fa fa-github"></i> [GitHub: `@`yanxianl](https://github.com/yanxianl)
 - <i class="fa fa-home"></i> [yanxianli.com](https://yanxianli.com/)
@@ -194,7 +194,7 @@ Skills {#skills}
 
 **Bioinformatics**
 <br>
-16S amplicon data analysis
+16S amplicon sequencing
 
 **Statistics**
 <br>
@@ -213,13 +213,13 @@ Main
 Yanxian Li {#title}
 --------------------------------------------------------------------------------
 
-I'm a postdoc research fellow at [Norwegian University of Life Sciences](https://www.nmbu.no/en). My research interests include aquaculture, fish nutrition, gut health and microbiome. Currently, I’m working on *in-vitro* models for testing the nutritional and health effects of novel ingredients and feeds. 
+I'm a feed formulator at an aquafeed company based in Vietnam. My research experiences include fish nutrition, digestive physiology, gut health, and microbiome. 
 
-Research Experience {data-icon=laptop}
+Work experience {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r, results='asis', echo = FALSE}
-print_section(position_data, 'research_experience')
+print_section(position_data, 'work_experience')
 ```
 
 
@@ -236,7 +236,7 @@ print_section(position_data, 'presentation')
 ```
 
 
-Recent publications {data-icon=book}
+Publications {data-icon=book}
 --------------------------------------------------------------------------------
 ::: aside
 

@@ -20,7 +20,7 @@ cites <- get_citation_history(id)
 cat(toJSON(cites), file = here::here("data/citation.json"))
 
 # citations in the latest 5 years
-cites_latest <- tail(cites, 3)
+cites_latest <- tail(cites, 5)
 cites_latest$year <- factor(cites_latest$year)
 
 # citation plot
